@@ -23,7 +23,7 @@ Flickster is an app that allows users to browse movies from the [The Movie Datab
 
 ### App Walkthough GIF
 
-<img src="https://imgur.com/340ruVc" width=250><br>
+<img src="https://imgur.com/340ruVc.gif" width=250><br>
 
 ### Notes
 for some reason when ever i loaded the application up some of the data spaces were blank.
