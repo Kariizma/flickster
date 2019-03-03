@@ -8,7 +8,6 @@ Flickster is an app that allows users to browse movies from the [The Movie Datab
 ## Flickster Part 1
 
 ### User Stories
-`TODO://` In the **User Stories section below**, add an `x` in the `-[ ]` like this `- [x]` for any user story you complete. (🚫 Remove this paragraph after after checking off completed user stories)
 
 #### REQUIRED (10pts)
 - [x] (10pts) User can view a list of movies (title, poster image, and overview) currently playing in theaters from the Movie Database API.
@@ -24,7 +23,7 @@ Flickster is an app that allows users to browse movies from the [The Movie Datab
 
 ### App Walkthough GIF
 
-<img src="https://imgur.com/TXKMN4Z" width=250><br>
+<img src="https://imgur.com/340ruVc.gif" width=250><br>
 
 ### Notes
 for some reason when ever i loaded the application up some of the data spaces were blank.
