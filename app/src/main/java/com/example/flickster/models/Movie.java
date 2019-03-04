@@ -14,6 +14,9 @@ public class Movie
     String posterPath;
     String title;
     String overview;
+    int movieID;
+    double voteAverage;
+
     // needed for @Parcel
     public Movie()
     {
@@ -25,6 +28,8 @@ public class Movie
         posterPath = jsonObject.getString("poster_path");
         title = jsonObject.getString("title");
         overview = jsonObject.getString("overview");
+        voteAverage = jsonObject.getDouble("vote_average");
+        movieID = jsonObject.getInt("id");
     }
 
     public static List<Movie> fromJSONArray(JSONArray movieJsonArray) throws JSONException {
@@ -43,8 +48,9 @@ public class Movie
     public String getTitle() {
         return title;
     }
-
     public String getOverview() {
         return overview;
     }
+    public double getVoteAverage(){return voteAverage;}
+    public int getMovieID(){return movieID;}
 }
